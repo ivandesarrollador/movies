@@ -115,7 +115,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/txt_language"
         app:layout_constraintTop_toBottomOf="@+id/img_background"
-        tools:text="Mark" />
+        android:text="Mark" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_favorites"
@@ -131,7 +131,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_bookmark"
         app:layout_constraintTop_toTopOf="@+id/btn_bookmark"
-        tools:text="Favorite" />
+        android:text="Favorite" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_share"
@@ -147,7 +147,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_favorites"
         app:layout_constraintTop_toTopOf="@+id/btn_favorites"
-        tools:text="Share" />
+        android:text="Share" />
 
     <TextView
         android:id="@+id/txt_title_description"

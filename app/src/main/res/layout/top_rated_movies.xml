@@ -12,7 +12,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
-        tools:text="Top Rated Movies"/>
+        android:text="Top Rated Movies"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_top_rated_movies"

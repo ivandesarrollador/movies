@@ -12,7 +12,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
-        tools:text="Upcoming Movies"/>
+        android:text="Upcoming Movies"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_upcoming_movies"
